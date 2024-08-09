@@ -1,0 +1,14 @@
+{
+    "name": "arthuryin/es-laravel-lumen",
+    "description": "laravel and lumen use elasticsearch",
+    "type": "library",
+    "require": {
+        "elasticsearch/elasticsearch": "7.9"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Arthuryin\\EsLaravelLumen\\": "src/"
+        }
+    }
+}
